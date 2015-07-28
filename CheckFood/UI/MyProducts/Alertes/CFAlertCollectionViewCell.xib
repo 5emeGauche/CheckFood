@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" variant="6xAndEarlier" propertyAccessControl="none">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="AlertCell" id="Uu2-Y0-tF2" customClass="CFAlertCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="180"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="180"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rectangle_alerte.png" id="nbg-0D-YAo">
+                        <rect key="frame" x="11" y="1" width="300" height="180"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" id="U9J-1M-KyF">
+                        <rect key="frame" x="237" y="149" width="48" height="23"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <state key="normal" image="Delete_off.png"/>
+                        <state key="highlighted" image="Delete_on.png"/>
+                    </button>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Filet_popup_2.png" id="mTP-5V-S01">
+                        <rect key="frame" x="11" y="38" width="300" height="1"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" id="bqF-30-sXT">
+                        <rect key="frame" x="129" y="147" width="69" height="28"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <state key="normal" image="MES-DONS_off.png"/>
+                        <state key="highlighted" image="MES-DONS_on.png"/>
+                    </button>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Herta" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Uhd-gq-ld7">
+                        <rect key="frame" x="109" y="83" width="178" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Filet_photo_produit.png" id="37c-aD-SdL">
+                        <rect key="frame" x="115" y="140" width="1" height="40"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" id="FP5-aF-DJd">
+                        <rect key="frame" x="42" y="144" width="43" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <state key="normal" image="RESTAURANT_off.png"/>
+                        <state key="highlighted" image="RESTAURANT_on.png"/>
+                    </button>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Filet_photo_produit.png" id="mw8-Vg-bqf">
+                        <rect key="frame" x="206" y="140" width="1" height="40"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dés de Lardons Nature" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="XRN-kK-eil">
+                        <rect key="frame" x="109" y="48" width="191" height="38"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Filet_popup_2.png" id="rhL-sl-CNr">
+                        <rect key="frame" x="11" y="140" width="300" height="1"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <view contentMode="scaleToFill" id="f3Z-t0-jfJ" customClass="AKProgressView">
+                        <rect key="frame" x="109" y="109" width="190" height="4"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="bls-KN-CJW">
+                        <rect key="frame" x="24" y="50" width="70" height="80"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <view contentMode="scaleToFill" id="Kqt-1x-pbn">
+                        <rect key="frame" x="13" y="0.0" width="295" height="37"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="daH-39-Oav">
+                                <rect key="frame" x="11" y="11" width="16" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Périme dans 1 jour" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="r1i-kK-cpo">
+                                <rect key="frame" x="35" y="8" width="150" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="19.03.14" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="YSK-EB-7Pp">
+                                <rect key="frame" x="216" y="8" width="70" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <size key="customSize" width="340" height="214"/>
+            <connections>
+                <outlet property="addToFavoritesBut" destination="bqF-30-sXT" id="mWw-aD-Jyi"/>
+                <outlet property="dropProductBut" destination="U9J-1M-KyF" id="WNZ-dU-0Vd"/>
+                <outlet property="eatBut" destination="FP5-aF-DJd" id="yce-bo-0Ho"/>
+                <outlet property="nameOfProduct" destination="XRN-kK-eil" id="IPu-Rd-oRy"/>
+                <outlet property="perimeDate" destination="YSK-EB-7Pp" id="HRp-47-26Y"/>
+                <outlet property="perimeImage" destination="daH-39-Oav" id="NIm-16-Typ"/>
+                <outlet property="perimeTxt" destination="r1i-kK-cpo" id="4FE-Qy-pEp"/>
+                <outlet property="productImage" destination="bls-KN-CJW" id="swE-mQ-Ugz"/>
+                <outlet property="progressView" destination="f3Z-t0-jfJ" id="w31-HS-POb"/>
+                <outlet property="separator" destination="37c-aD-SdL" id="e5T-wj-RcQ"/>
+                <outlet property="separator1" destination="mw8-Vg-bqf" id="UbC-Oj-lu0"/>
+                <outlet property="subNameOfProduct" destination="Uhd-gq-ld7" id="Did-zv-x8M"/>
+            </connections>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Delete_off.png" width="17" height="20"/>
+        <image name="Delete_on.png" width="17" height="20"/>
+        <image name="Filet_photo_produit.png" width="1" height="100"/>
+        <image name="Filet_popup_2.png" width="240" height="1"/>
+        <image name="MES-DONS_off.png" width="20" height="16"/>
+        <image name="MES-DONS_on.png" width="20" height="16"/>
+        <image name="RESTAURANT_off.png" width="20" height="20"/>
+        <image name="RESTAURANT_on.png" width="20" height="20"/>
+        <image name="rectangle_alerte.png" width="301" height="178"/>
+    </resources>
+</document>
